@@ -75,33 +75,12 @@ code/
 - Integration between all tools
 - Automated workflow demonstration
 
-## UI Development Options
-
-### Option 1: Web Dashboard
-- **Technology**: React/Node.js or Python Flask/Django
-- **Purpose**: Centralized tool access and results display
-- **Features**: Tool launcher, result viewer, workflow management
-
-### Option 2: Jupyter Notebooks
-- **Technology**: Python with Jupyter
-- **Purpose**: Interactive demonstrations and tutorials
-- **Features**: Code execution, visualization, documentation
-
-### Option 3: Streamlit App
-- **Technology**: Python Streamlit
-- **Purpose**: Simple web interface for demonstrations
-- **Features**: Easy deployment, interactive widgets
 
 ## Deployment Strategy
 
 ### Local Development
 - All tools run locally
 - Sample data included in repository
-
-### Cloud Deployment (Optional)
-- **Platform**: AWS, Azure, or Google Cloud
-- **Purpose**: Public demonstration access
-- **Considerations**: Security, cost, data privacy
 
 ## Next Steps
 
@@ -115,7 +94,7 @@ code/
 
 ## Data Privacy & Legal Considerations
 
-- All datasets are publicly available for educational purposes
-- No real case data will be used
+- All datasets are publicly available
+- No real case data was be used
 - Demonstrations use synthetic or de-identified data
 - Compliance with academic research standards 
