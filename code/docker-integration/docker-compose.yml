@@ -1,0 +1,16 @@
+version: '3.1'
+services:
+  misp:
+    image: dockerhub/misp:latest
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./misp-data:/var/lib/mysql
+      - ./misp-logs:/var/log/misp
+    environment:
+      - MYSQL_DATABASE=misp
+      - MYSQL_USER=misp
+      - MYSQL_PASSWORD=misp
+      - MYSQL_ROOT_PASSWORD=misp
+    restart: unless-stopped
